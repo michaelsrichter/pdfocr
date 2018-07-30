@@ -1,0 +1,16 @@
+{
+  "name": "pdfs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Richter",
+  "license": "MIT",
+  "dependencies": {
+    "pdf2pic": "^1.2.6",
+    "request": "^2.87.0",
+    "uuid": "^3.3.2"
+  }
+}
