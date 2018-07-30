@@ -5,7 +5,7 @@
 This code is deployed to a container image on Docker Hub at 
 [https://hub.docker.com/r/richtercloud/pdfocr]()
 
-### To run it locally you can use this
+### To run it locally with Docker you can use this
 
 ```bash
 docker run -e PDFURL=https://toggl.com/landing/files/editable-invoice-template.pdf -e OCRURL=https://eastus.api.cognitive.microsoft.com/vision/v2.0/ocr -e OCRKEY=<YOURKEY> richtercloud/pdfocr 
@@ -15,6 +15,8 @@ OR like this
 docker run richtercloud/pdfocr https://toggl.com/landing/files/editable-invoice-template.pdf https://eastus.api.cognitive.microsoft.com/vision/v2.0/ocr <YOURKEY>
 ```
 The OCRURL can be any valid Azure Cognitive Services computer vision endpoint.
+
+### You can run it outside a container too. You will need Node JS and GraphicsMagick installed locally.
 
 ### To try it on Azure, you can use Azure Container Instances, like this:
 ```bash
