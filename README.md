@@ -3,7 +3,8 @@
 ## Azure Cognitive Services OCR for PDFs
 
 This code is deployed to a container image on Docker Hub at 
-[https://hub.docker.com/r/richtercloud/pdfocr]()
+[https://hub.docker.com/r/richtercloud/pdfocr](https://hub.docker.com/r/richtercloud/pdfocr/
+)
 
 ### To run it locally with Docker you can use this
 
